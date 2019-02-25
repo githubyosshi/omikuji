@@ -1,0 +1,28 @@
+body {
+  background: #efefef;
+}
+
+#btn {
+  width: 200px;
+  height: 200px;
+  background: #ef454a;
+  border-radius: 50%;  /* 丸にする */
+  margin: 30px auto 0; /* 上、左右、下 */
+  text-align: center;
+  line-height: 200px;
+  color: #fff;
+  font-size: 42px;
+  font-weight: bold;
+  cursor: pointer;     /* ポインター形状変更 */
+  box-shadow: 0 10px 0 #d1483e;    /* x方向、下、ボカシ、色 */
+  user-select: none;   /* 文字を選択させないようにする */
+  }
+
+#btn:hover {          /* ポインターが乗った時 */
+  opacity: 0.9;        /* 色を少し薄く */
+}
+
+#btn.pressed {
+  box-shadow: 0 5px 0 #d1483e;
+  margin-top: 35px;
+}
